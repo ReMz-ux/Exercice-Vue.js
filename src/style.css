@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-size: 20px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -39,6 +43,14 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: lawngreen;
+}
+
+h2 {
+  color: lawngreen;
+}
+
+#ternaire {
   color: lawngreen;
 }
 
