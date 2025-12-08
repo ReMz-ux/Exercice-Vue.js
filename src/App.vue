@@ -5,10 +5,9 @@ import TextInterpolation from './components/TextInterpolation.vue'
 </script>
 
 <template>
-  <Navbar Navbar />
-  
+  <Navbar />
+  <TextInterpolation />
   <h1>Bienvenue sur ton applications de test VUE.JS</h1>
-  
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -17,9 +16,8 @@ import TextInterpolation from './components/TextInterpolation.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="" />
-  <TextInterpolation />
-  
+
+
 </template>
 
 <style scoped>
