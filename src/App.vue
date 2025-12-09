@@ -4,6 +4,7 @@ import Navbar from './components/navbar.vue'
 import TextInterpolation from './components/TextInterpolation.vue'
 import AttributeBinding from './components/AttributeBinding.vue'
 import Compteur from './components/Compteur.vue'
+import EventBinding from './components/EventBinding.vue'
 </script>
 
 <template>
@@ -18,8 +19,8 @@ import Compteur from './components/Compteur.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-<TextInterpolation />
 <Compteur />
+<EventBinding />
 </div>
 </template>
 

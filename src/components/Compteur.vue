@@ -26,6 +26,9 @@ function desincrement() {
 const count = ref(0);
 function increment() {
   count.value+= 11;
+  if (count.value > 200) {
+    return "C'est bon j'en est marre de m'incrementer !";
+  }
 }
 
  // Capter l'evenement click et indiquer les coordonnées de la souris
