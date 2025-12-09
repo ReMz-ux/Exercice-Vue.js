@@ -37,7 +37,7 @@ let isOnline = true;
 let années = 2024;
 let untableau = ["MMORPG", "FPS", "Aventure", "Simulation", 2025];
 
- let Objet = {
+let Objet = {
     nom: "Console",
     marque: "Sony",
     modele: "PlayStation 5",

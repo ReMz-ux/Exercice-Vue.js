@@ -2,11 +2,12 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/navbar.vue'
 import TextInterpolation from './components/TextInterpolation.vue'
+import AttributeBinding from './components/AttributeBinding.vue'
+import DrMario from './components/DrMario.vue'
 </script>
 
 <template>
   <Navbar />
-  <TextInterpolation />
   <h1>Bienvenue sur ton applications de test VUE.JS</h1>
   <div>
     <a href="https://vite.dev" target="_blank">
@@ -16,7 +17,9 @@ import TextInterpolation from './components/TextInterpolation.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-
+<TextInterpolation />
+<AttributeBinding />
+<DrMario />
 
 </template>
 
