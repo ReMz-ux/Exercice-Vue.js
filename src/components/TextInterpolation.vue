@@ -3,7 +3,7 @@
     <h2>{{ message }}</h2>
     <p>{{ age }}</p>
     <!--Affichage depuis une fonction-->
-    <h3>{{ SuperAffichage() }}</h3>
+    <h3 :style="{color: 'white'}">{{ SuperAffichage() }}</h3>
     <!--Opérations mathématiques-->
     <p>{{ 10+15 }}</p>
     <p>{{ 999-250 }}</p>
