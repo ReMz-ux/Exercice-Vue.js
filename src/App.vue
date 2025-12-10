@@ -8,7 +8,7 @@ import EventBinding from './components/EventBinding.vue'
 import ExerciceBug from './components/ExerciceBug.vue'
 import Vmodel from './components/Vmodel.vue'
 import TPRéactivité from './components/TPRéactivité.vue'
-import StyleDynamiqueTP from './components/StyleDynamiqueTP.vue'
+import StyleDynamiqueTP2 from './components/StyleDynamiqueTP2.vue'
 </script>
 
 <template>
@@ -25,6 +25,8 @@ import StyleDynamiqueTP from './components/StyleDynamiqueTP.vue'
   </div>
 <TPRéactivité />
 <StyleDynamiqueTP />
+<StyleDynamiqueTP2 />
+
 </div>
 </template>
 
