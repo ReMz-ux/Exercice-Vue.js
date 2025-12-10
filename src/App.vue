@@ -11,6 +11,7 @@ import TPRéactivité from './components/TPRéactivité.vue'
 import StyleDynamiqueTP2 from './components/StyleDynamiqueTP2.vue'
 import WatchList from './components/WatchList.vue'
 import ConditionnalRendering from './components/ConditionnalRendering.vue'
+import StyleDynamiqueTP from './components/StyleDynamiqueTP.vue'
 </script>
 
 <template>
