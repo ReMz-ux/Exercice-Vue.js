@@ -9,4 +9,4 @@ import App from './App.vue'
 // Création de l'application Vue
 const app = createApp(App);
 // Montage de l'application dans la balise #app de index.html
-app.mount('#app');
+createApp(App).mount('#app');

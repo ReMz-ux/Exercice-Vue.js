@@ -5,6 +5,9 @@ import TextInterpolation from './components/TextInterpolation.vue'
 import AttributeBinding from './components/AttributeBinding.vue'
 import Compteur from './components/Compteur.vue'
 import EventBinding from './components/EventBinding.vue'
+import ExerciceBug from './components/ExerciceBug.vue'
+import Vmodel from './components/Vmodel.vue'
+import TPRéactivité from './components/TPRéactivité.vue'
 </script>
 
 <template>
@@ -19,8 +22,7 @@ import EventBinding from './components/EventBinding.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-<Compteur />
-<EventBinding />
+<TPRéactivité />
 </div>
 </template>
 
