@@ -10,24 +10,19 @@ import Vmodel from './components/Vmodel.vue'
 import TPRéactivité from './components/TPRéactivité.vue'
 import StyleDynamiqueTP2 from './components/StyleDynamiqueTP2.vue'
 import WatchList from './components/WatchList.vue'
+import ConditionnalRendering from './components/ConditionnalRendering.vue'
 </script>
 
 <template>
 <div id="app" class="min-vh-100">
   <Navbar />
   <h1>Bienvenue sur ton applications de test VUE.JS</h1>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
+  
 <TPRéactivité />
 <StyleDynamiqueTP />
 <StyleDynamiqueTP2 />
 <WatchList />
+<ConditionnalRendering />
 
 </div>
 </template>

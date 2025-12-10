@@ -6,12 +6,12 @@
         <form>
             <div class="form-group">
                 <input type="text" v-model="title1" placeholder="Entrez le premier titre (hello)">
-                <h3 v-if="showTitle1" :class="classTitle1" class="message">Je m'affiche si le titre est Hello</h3>
+                <h3 v-if="showTitle1" :class="classTitle1" class="message">Tu as reussi a afficher le message cacher</h3>
             </div>
             
             <div class="form-group">
                 <input type="text" v-model="title2" placeholder="Entrez le deuxième titre (world)">
-                <h3 v-if="showTitle2" :class="classTitle2" class="message">Je m'affiche si le titre est World</h3>
+                <h3 v-if="showTitle2" :class="classTitle2" class="message">Tu as reussi a afficher le message cacher</h3>
             </div>
             
             <!-- Les bouttons vont permettre d'afficher les titre ou pas -->
