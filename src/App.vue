@@ -9,6 +9,7 @@ import ExerciceBug from './components/ExerciceBug.vue'
 import Vmodel from './components/Vmodel.vue'
 import TPRéactivité from './components/TPRéactivité.vue'
 import StyleDynamiqueTP2 from './components/StyleDynamiqueTP2.vue'
+import WatchList from './components/WatchList.vue'
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import StyleDynamiqueTP2 from './components/StyleDynamiqueTP2.vue'
 <TPRéactivité />
 <StyleDynamiqueTP />
 <StyleDynamiqueTP2 />
+<WatchList />
 
 </div>
 </template>
